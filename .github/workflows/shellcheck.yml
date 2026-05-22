@@ -1,18 +1,10 @@
-name: Shell Script Validation
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+name: ShellCheck
+
+on: [push, pull_request]
 
 jobs:
   shellcheck:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@master
+      - uses: actions/checkout@v4

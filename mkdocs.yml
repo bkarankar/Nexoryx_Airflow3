@@ -1,0 +1,5 @@
+
+site_name: Nexoryx_Airflow
+nav:
+  - Home: README.md
+  - Architecture: docs/architecture.md

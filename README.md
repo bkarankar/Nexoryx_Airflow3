@@ -1,4 +1,10 @@
 
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Ubuntu-orange)
+![DevOps](https://img.shields.io/badge/DevOps-Ready-blue)
+![Automation](https://img.shields.io/badge/Automation-Enabled-blue)
+
+
 # Nexoryx_Airflow
 
 Production-ready automated Apache Airflow 3.2.1 deployment for Ubuntu 24.04 EC2 with PostgreSQL, Redis/CeleryExecutor, Nginx, HTTPS, Azure Entra ID SSO, and API DAG triggering.
@@ -121,3 +127,30 @@ Workflow files:
 ```text
 .github/workflows/
 ```
+
+
+## Project Roadmap
+
+- [ ] Kubernetes Helm charts
+- [ ] GitOps support
+- [ ] CI/CD improvements
+- [ ] Monitoring dashboards
+- [ ] Multi-cloud support
+- [ ] Security hardening
+
+## GitHub Actions
+
+This repository includes:
+- Shell validation
+- Markdown linting
+- Terraform validation (where applicable)
+
+## Example Deployments
+
+See:
+- examples/
+- docs/
+
+## Related Nexoryx Projects
+
+This repository is part of the Nexoryx infrastructure ecosystem.
