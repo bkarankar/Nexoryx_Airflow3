@@ -1,0 +1,11 @@
+Create GitHub Repository:
+Nexoryx_Airflow
+
+Commands:
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/Nexoryx_Airflow.git
+git push -u origin main
