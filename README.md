@@ -46,6 +46,13 @@ git clone https://github.com/YOUR_USERNAME/Nexoryx_Airflow.git
 
 cd Nexoryx_Airflow
 ```
+## update variable
+## create a app in azure for sso and get tenant id, client id and client secret, for more info, email at bkarankar@gmail.com
+## make sure to update variables as
+
+##AZURE_TENANT_ID="${AZURE_TENANT_ID:-REPLACE_ME}"
+##AZURE_CLIENT_ID="${AZURE_CLIENT_ID:-REPLACE_ME}"
+##AZURE_CLIENT_SECRET="${AZURE_CLIENT_SECRET:-REPLACE_ME}"
 
 ## Run Installer
 
