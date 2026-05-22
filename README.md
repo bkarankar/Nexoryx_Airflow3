@@ -48,7 +48,7 @@ EC2 Ubuntu 24.04
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Nexoryx_Airflow.git
+git clone https://github.com/bkarankar/Nexoryx_Airflow3.git
 
 cd Nexoryx_Airflow
 ```
