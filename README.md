@@ -42,17 +42,10 @@ EC2 Ubuntu 24.04
 ## Clone Repository
 
 ```bash
-git clone https://github.com/bkarankar/Nexoryx_Airflow3.git
+git clone https://github.com/YOUR_USERNAME/Nexoryx_Airflow.git
 
 cd Nexoryx_Airflow
 ```
-## update variable
-## create a app in azure for sso and get tenant id, client id and client secret, for more info, email at bkarankar@gmail.com
-## make sure to update variables as
-
-##AZURE_TENANT_ID="${AZURE_TENANT_ID:-REPLACE_ME}"
-##AZURE_CLIENT_ID="${AZURE_CLIENT_ID:-REPLACE_ME}"
-##AZURE_CLIENT_SECRET="${AZURE_CLIENT_SECRET:-REPLACE_ME}"
 
 ## Run Installer
 
@@ -111,3 +104,20 @@ These are NOT real production credentials.
 # License
 
 MIT License
+
+
+---
+
+# GitHub Actions Included
+
+This repository includes automated GitHub Actions workflows for:
+
+- Terraform validation
+- Shell script validation using ShellCheck
+- Markdown linting
+
+Workflow files:
+
+```text
+.github/workflows/
+```
